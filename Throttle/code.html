@@ -1,0 +1,8 @@
+<button id="test">Click Me Rapidly</button>
+<script>
+  const throttledClick = throttle(() => {
+    console.log("Button Clicked:", new Date().toLocaleTimeString());
+  }, 1000);
+
+  document.getElementById("test").addEventListener("click", throttledClick);
+</script>
