@@ -1,0 +1,20 @@
+#grid {
+  margin: 20px;
+  display: grid;
+}
+
+.cell {
+  border: 1px solid #ccc;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: green;
+}
+
+.diagonal {
+  background-color: red;
+}
